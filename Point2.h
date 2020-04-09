@@ -5,8 +5,6 @@
 #ifndef VAJE4_POINT2_H
 #define VAJE4_POINT2_H
 
-#include <cmath>
-
 /*
 class Point2 {
 public:

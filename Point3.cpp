@@ -9,7 +9,7 @@ VTable Point3_vtable = {
     /*scale = */reinterpret_cast<void(*)(void *, double)>(Point3_scale),
     /*getY = */reinterpret_cast<double(*)(void *)>(Point2_getY),
     /*getZ = */reinterpret_cast<double(*)(void *)>(Point3_getZ),
-    /*dtor = */reinterpret_cast<double(*)(void *)>(Point3_dtor)
+    /*dtor = */reinterpret_cast<void(*)(void *)>(Point3_dtor)
 };
 
 /*

@@ -23,7 +23,7 @@ Point3 Point3_ctor(const double x, const double y, const double z) {
     base.vptr = &Point3_vtable;
     Point3 self = {base, z};
 
-    std::cout << "Constructor Poin3" << std::endl;
+    std::cout << "Constructor Point3" << std::endl;
     return self;
 }
 

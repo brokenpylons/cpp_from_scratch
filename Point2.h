@@ -29,7 +29,7 @@ struct VTable {
     void (*scale)(void *, double);
     double (*getY)(void *);
     double (*getZ)(void *);
-    double (*dtor)(void *);
+    void (*dtor)(void *);
 };
 
 struct Point2 {
